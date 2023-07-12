@@ -1,0 +1,64 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.title-box{
+    color: white;
+}
+.principal-box{
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    align-items: center;
+    text-align: center;
+    height: 31rem;
+    width: 90%;
+    color: white;
+}
+
+h2{
+    margin-bottom: 7px;
+}
+
+.form-box{
+    background-color: cadetblue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    height: 15rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#btnConvertir{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 8px;
+    background-color: cornflowerblue;
+    border: 1px solid blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+#inputClp{
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#inputConvertir{
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#graficaIndicador {
+    width: 100%;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+  }
